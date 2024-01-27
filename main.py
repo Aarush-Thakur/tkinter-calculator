@@ -1,6 +1,6 @@
 from tkinter import *
-import calculator_gui
+import tk_calculator_gui
 
 root = Tk()
-calculator_gui.Calculator(root)
+app = App(root)
 root.mainloop()
