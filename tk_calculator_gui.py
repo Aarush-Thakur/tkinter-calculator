@@ -375,7 +375,3 @@ class App:
         self.nums = []
         self.operation = ''
         self.display.set(0)
-
-root = Tk()
-app = App(root)
-root.mainloop()
