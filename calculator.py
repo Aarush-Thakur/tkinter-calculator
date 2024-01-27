@@ -22,15 +22,6 @@ def div(nums):
     ans = ans / nums[i+1]
   return ans
 
-def enternums():
-  nums = []
-  i = 0
-  while i != '':
-    i = (input("Enter a number: "))
-    if i != '':
-      nums.append(int(i))
-  return nums
-
 def calc(operation, numbers):
   match operation:
     case 'add':
