@@ -1,8 +1,4 @@
-#WIP
-#Trying to make a copy of windows calculator app in mostly tk
-
 from tkinter import *
-from tkinter import ttk
 
 import calculator
 
@@ -115,10 +111,6 @@ class App:
         self.root.rowconfigure(4, weight = 1)
         self.root.rowconfigure(5, weight = 1)
         self.root.rowconfigure(6, weight = 1)
-
-        #self.mainframe = ttk.Frame(self.root)
-
-        #self.mainframe.grid(column = 0, row = 0, sticky = (N,W,E,S))
 
         self.display = StringVar()
         self.display.set(0)
